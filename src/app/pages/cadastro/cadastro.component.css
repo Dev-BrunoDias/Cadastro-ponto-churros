@@ -1,0 +1,25 @@
+.nav {
+    background-color: #FF5722;
+}
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    width: 55%;
+}
+
+.localizacao, .horarios{
+    display: flex;
+    justify-content: space-between;
+}
+
+.localizacao mat-form-field, .horarios mat-form-field{
+    width: 510px;
+    box-sizing: border-box;
+}
+
+.formulario button{
+    width: 20%;
+}
